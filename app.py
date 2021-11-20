@@ -15,6 +15,6 @@ if uploaded_file is not None:
     st.write("Classifying...")
     label = machine_classification(image, 'Dogs-vs-Cats_model.h5')
     if label == 0:
-        st.write("Dog")
+        st.write("CTF{DOGS_SEE_IN_BW}")
     else:
         st.write("Cat")
